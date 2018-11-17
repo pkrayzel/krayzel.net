@@ -1,4 +1,4 @@
-baseurl = "http://www.krayzel.net" # Hostname (and path) to the root.
+baseUrl = "https://www.krayzel.net/"
 title = "Home" # Site title.
 theme = "hugo-coder" # Set the theme.
 languagecode = "en" # The site’s language code used to generate RSS.
@@ -18,7 +18,7 @@ disqusShortname = "" # Enable or disable Disqus.
     info = "Distributed Team Leader / Senior Software Engineer"
     description = "Pavel Krayzel's personal website" # Site description.
     keywords = "blog,developer,personal,aws" # Site keywords.
-    avatarurl = "https://github.com/pkrayzel/krayzel.net/tree/master/static/avatar.png"
+    avatarurl = "images/avatar.png"
 
     footercontent = "" # Add footer content
     fixedbarContent = "" # Add fixedbar content

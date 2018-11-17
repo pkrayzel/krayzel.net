@@ -1,7 +1,7 @@
 ---
 title: "Running hugo on AWS"
 date: 2018-11-17T19:32:30+01:00
-draft: true
+draft: false
 ---
 
 Hello visitor! 

@@ -1,7 +1,7 @@
 ---
 title: "About me"
 date: 2018-11-17T20:07:12+01:00
-draft: true
+draft: false
 ---
 
 **Passionate tech lead, hands-on software engineer and experienced people manager.** 
