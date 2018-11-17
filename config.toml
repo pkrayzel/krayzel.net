@@ -18,7 +18,7 @@ disqusShortname = "" # Enable or disable Disqus.
     info = "Distributed Team Leader / Senior Software Engineer"
     description = "Pavel Krayzel's personal website" # Site description.
     keywords = "blog,developer,personal,aws" # Site keywords.
-    avatarurl = "images/avatar.png"
+    avatarurl = "https://github.com/pkrayzel/krayzel.net/tree/master/static/avatar.png"
 
     footercontent = "" # Add footer content
     fixedbarContent = "" # Add fixedbar content
