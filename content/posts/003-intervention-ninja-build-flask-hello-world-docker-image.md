@@ -99,4 +99,4 @@ That looks promising. Now open your browser on url <a href="http://localhost:500
 Hello, World!
 ```
 
-Ok, coding part is done. Next task is to [ship this incredibly useful application to AWS](/posts/004-intervention-ninja-deploy-flask-hello-world-to-aws-ecs). 
+Ok, coding part is done. Next task will be to ship this incredibly useful application to AWS. Stay tuned!

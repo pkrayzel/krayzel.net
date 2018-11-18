@@ -9,26 +9,24 @@ thumbnail = "images/tn.png"
 description = ""
 +++
 
-**Preparing AWS ECS**
-
 AWS Elastic Container Service (ECS) is Amazon's original solution for running docker containers on cluster of machines (EC2 boxes). 
 Nowadays, you would most likely use EKS - Kubernetes on AWS, but let's keep things simple for now.
 
 Let's sign into <a href="https://console.aws.amazon.com" target="_blank">AWS console</a> and 
 open service <a href="https://console.aws.amazon.com/ecs/" target="_blank">AWS ECS</a>.
 
-First, we need to create a cluster - on the left side click on *Clusters* and then on *Create cluster* button.
-It will be enough for us to use *Networking only* template, so select this option and press *Next*. 
-Then type name of your new cluster and press *Create*. Now you should see active cluster in list of clusters!
+First, we need to create a cluster - on the left side click on **Clusters** and then on **Create cluster** button.
+It will be enough for us to use **Networking only** template, so select this option and press **Next**. 
+Then type name of your new cluster and press **Create**. Now you should see active cluster in list of clusters!
 
-**TBD image ?**
+![AWS ECS List of clusters](images/ecs_clusters.png)
 
-Next, we'll need docker container repository - on the left side click on *Repositories* and then on *Create repository*.
-Then type **intervention-ninja-flask** as a name of your repository and press *Create*. Now you should have one repository in your list. 
-Let's open it's detail (click on it's name) and then press *View Push Commands* button.
+Next, we'll need docker container repository - on the left side click on **Repositories** and then on **Create repository**.
+Then type **intervention-ninja-flask** as a name of your repository and press **Create**. Now you should have one repository in your list. 
 
-**TBD image ?**
+![AWS ECS Repository](images/ecs_repository.png)
 
+Let's open it's detail (click on it's name) and then press **View Push Commands** button.
 You should see step by step manual how to push docker image into this repository.
 
 **Pushing docker image to your AWS repository**
@@ -52,7 +50,7 @@ docker tag intervention-ninja-flask:latest 166058053690.dkr.ecr.us-east-1.amazon
 docker push 166058053690.dkr.ecr.us-east-1.amazonaws.com/intervention-ninja-flask:latest
 ```
 
-It might take a while, you should see output similar to this:
+It might take a while and then you should see output similar to this:
 
 ``` 
 The push refers to repository [166058053690.dkr.ecr.us-east-1.amazonaws.com/intervention-ninja-flask]
@@ -67,20 +65,35 @@ ebf12965380b: Pushed
 latest: digest: sha256:70059d082a08176eae045982f4f7de115f2d0c5cf76e92e42fc0e66bf20c0922 size: 1786
 ```
 
- Once the command successfully finishes, you should see a docker image in your repository in AWS console.
+ Once the command successfully finishes, you should also have a docker image in your repository in AWS console.
  
-**TBD image**
+![AWS ECS Repository with image](images/ecs_repository_image.png)
 
 **Creating task definition in AWS**
 
-In AWS console let's get back to ECS and on the left side, let's choose *Task definitions*. 
-Click on *Create new Task Definition* button. Let's choose *Fargate* type as it's easier to manage and press *Next step*.
-Let's put *intervention-ninja-flask* as task name, then choose *0.5GB* as task memory and *0.25vCPU* as task CPU.
-Also click on *Add container* button and put *intervention-ninja-flask-container* as a name 
-and URL to the docker image in your repository. In my case it's *166058053690.dkr.ecr.us-east-1.amazonaws.com/intervention-ninja-flask:latest*.
+Next, we need to create our task definition, which we'll run on our cluster. On the left side, let's choose **Task definitions**. 
+Click on **Create new Task Definition** button. Let's choose **Fargate** type as it's easier to start with press **Next step**.
+You see all the details I've filled on the following image and you also need to click on the **Add container** button. 
 
-We don't need to fill anything else for this simple case, so let's click on *Create* (container) and *Create* (Fargate task definition).
+![AWS ECS Task definition fargate](images/ecs_task_definition_fargate.png)
 
-We should now have one active task *intervention-ninja-flask* in our list of task definitions.
+There's a lot of options for new container. However we only need to specify it's name, image and port mapping. 
 
-**TBD Image?**
+![AWS ECS Task definition - add new container](images/ecs_task_definition_container.png)
+
+Once we click on **Create** button for both container and task definition, we should have one active task *intervention-ninja-flask* in our list.
+
+**Running a task on a cluster**
+
+Now final round - let's click on the **Clusters** menu and open detail for our cluster. 
+There's again a lot of options here - what we want for now, is to create a new task.
+
+If you're asking yourself what's the difference between task and a service: 
+
+> A Task is created when you run a Task directly, which launches container(s) (defined in the task definition) until they are stopped or exit on their own, at which point they are not replaced automatically. Running Tasks directly is ideal for short running jobs, perhaps as an example things that were accomplished via CRON.
+
+> A Service is used to guarantee that you always have some number of Tasks running at all times. If a Task's container exits due to error, or the underlying EC2 instance fails and is replaced, the ECS Service will replace the failed Task. This is why we create Clusters so that the Service has plenty of resources in terms of CPU, Memory and Network ports to use. To us it doesn't really matter which instance Tasks run on so long as they run. A Service configuration references a Task definition. A Service is responsible for creating Tasks. 
+
+So on the **Tasks** tab click on **Create task** and fill the form as seen on the next image.
+
+![AWS ECS Cluster - run task](images/ecs_run_task.png)
