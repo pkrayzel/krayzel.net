@@ -1,8 +1,13 @@
----
-title: "Running hugo on AWS"
-date: 2018-11-17T19:32:30+01:00
-draft: false
----
++++ 
+draft = false
+date = 2018-11-17T19:32:30+01:00
+title = "Running hugo on AWS"
+slug = "" 
+tags = []
+categories = []
+thumbnail = "images/tn.png"
+description = ""
++++
 
 Hello visitor! 
 

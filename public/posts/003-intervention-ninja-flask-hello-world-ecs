@@ -1,0 +1,69 @@
++++
+draft = true
+date = 2018-11-18T18:21:39+01:00
+title: "Intervention Ninja - flask hello-world running on AWS ECS"
+slug = ""
+tags = ["intervention-ninja", "aws"]
+categories = []
+thumbnail = "images/tn.png"
+description = ""
++++
+
+In the [](previous post), I've shared what we're going to build and why.
+Even though the web site will have only two features (one could say it's still one feature with two para:
+- (sending anonymous email in 2 templates),
+it will take some time to build it and in order to focus on small increments, let's start with following question:
+
+**What can we deliver today?**
+
+Even though the app will be
+
+Ok I know, it's not the best, however I've done way too many *hello-world* or *todo-ist* tutorials and I've wanted to use something else here.
+
+
+**Let's get started**
+
+I'll start with building a docker image for our flask application. Let's write a Dockerfile for it. I expect you to have some experience with docker, if you don't - I recommend you to check <a href="https://docker-curriculum.com/" target="_blank">this website</a>.
+
+```
+FROM library/python:alpine3.7
+
+MAINTAINER Pavel Krayzel "pkrayzel@gmail.com"
+
+RUN pip install flask
+
+ADD ./src /opt/intervention-ninja
+WORKDIR /opt/intervention-ninja
+
+EXPOSE 5000
+CMD ["python", "app.py"]
+```
+
+Nothing really fancy here, we're just using alpine version of Linux with python3. We're installing flask on it and copying source files from *src* directory.
+
+The second thing we need is to write our flask application - this is content of the file *src/app.py*:
+
+```
+from flask import Flask
+app = Flask(__name__)
+
+
+@app.route('/')
+def hello_world():
+    return 'Hello, World!'
+
+
+if __name__ == '__main__':
+    app.run(host="0.0.0.0", port=5000, threaded=False, debug=True)
+```
+
+Great, now let's build a docker image.
+
+```
+docker build -t intervention-ninja-flask .
+```
+
+```
+Successfully tagged intervention-ninja-flask:latest
+```
+
