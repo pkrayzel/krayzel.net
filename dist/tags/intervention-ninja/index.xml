@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home</title>
-    <link>https://www.krayzel.net/</link>
-    <description>Recent content on Home</description>
+    <title>Intervention Ninja on Home</title>
+    <link>https://www.krayzel.net/tags/intervention-ninja/</link>
+    <description>Recent content in Intervention Ninja on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 18 Nov 2018 18:21:39 +0100</lastBuildDate>
     
-	<atom:link href="https://www.krayzel.net/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.krayzel.net/tags/intervention-ninja/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -30,34 +30,6 @@ I&amp;rsquo;ll start with building a docker image for our flask application. Let
       <guid>https://www.krayzel.net/posts/002-intervention-ninja-flask-app-running-on-aws-ecs/</guid>
       <description>When I was working at Skyscanner, we had the whole tribe responsible for continuous integration and continuous deployment tools. Getting your service out to production (AWS ECS), was just the matter of merging PR to master and the rest was like &amp;ldquo;magic&amp;rdquo;. You didn&amp;rsquo;t need to worry about that.
 It is must have for fast-paced company like Skyscanner, that their engineers rather spend time delivering business features then worrying about build and deployment.</description>
-    </item>
-    
-    <item>
-      <title>About me</title>
-      <link>https://www.krayzel.net/about/</link>
-      <pubDate>Sat, 17 Nov 2018 20:07:12 +0100</pubDate>
-      
-      <guid>https://www.krayzel.net/about/</guid>
-      <description>Passionate tech lead, hands-on software engineer and experienced people manager.
-What do I believe in:
- &amp;ldquo;You build it, you run it.&amp;rdquo;
-&amp;ldquo;Hope is not a strategy.&amp;rdquo;
-&amp;ldquo;Roll forward.&amp;rdquo;
-AWS is awesome. Seriously!
- Work history
- Distributed Team Leader + Sw. Engineering Manager, MADE.COM, London, United Kingdom, [01/2018 - present]  I’ve helped MADE.COM to built their first distributed team at back-office (logistics) &amp;amp; with cultural shift towards distribution. I&amp;rsquo;ve been involved in hiring great engineers &amp;amp; helping my part of the company to succeed in growth (3 -&amp;gt; 5 teams in 3 months with ~40% distributed team members).</description>
-    </item>
-    
-    <item>
-      <title>Running hugo on AWS</title>
-      <link>https://www.krayzel.net/posts/001-running-hugo-on-aws/</link>
-      <pubDate>Sat, 17 Nov 2018 19:32:30 +0100</pubDate>
-      
-      <guid>https://www.krayzel.net/posts/001-running-hugo-on-aws/</guid>
-      <description>Hello visitor!
-I&amp;rsquo;ve just created this blog site using hugo and I&amp;rsquo;m excited about it! :) I&amp;rsquo;ll be using this place to share my ideas, thoughts and experience.
-The first &amp;ldquo;real&amp;rdquo; blog post will most likely be about Intervention Ninja. That&amp;rsquo;s my spare time project, which I&amp;rsquo;ve built to demonstrate how simple is to get stuff done on AWS.
-This site itself is also hosted on AWS. It actually sits in AWS S3 and it&amp;rsquo;s delivered to you through AWS CloudFront (content delivery network).</description>
     </item>
     
   </channel>
