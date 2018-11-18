@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Home</title>
-    <link>https://www.krayzel.net/posts/</link>
-    <description>Recent content in Posts on Home</description>
+    <title>Intervention Ninja on Home</title>
+    <link>https://www.krayzel.net/tags/intervention-ninja/</link>
+    <description>Recent content in Intervention Ninja on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 18 Nov 2018 14:45:39 +0100</lastBuildDate>
     
-	<atom:link href="https://www.krayzel.net/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.krayzel.net/tags/intervention-ninja/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,18 +19,6 @@
       <guid>https://www.krayzel.net/posts/002-intervention-ninja-flask-app-running-on-aws-ecs/</guid>
       <description>When I was working at Skyscanner, we had the whole tribe responsible for continuous integration and continuous deployment tools. Getting your service out to production (AWS ECS), was just the matter of merging PR to master and the rest was like &amp;ldquo;magic&amp;rdquo;. You didn&amp;rsquo;t need to worry about that.
 It is must have for fast-paced company like Skyscanner, that their engineers rather spend time delivering business features then worrying about build and deployment.</description>
-    </item>
-    
-    <item>
-      <title>Running hugo on AWS</title>
-      <link>https://www.krayzel.net/posts/001-running-hugo-on-aws/</link>
-      <pubDate>Sat, 17 Nov 2018 19:32:30 +0100</pubDate>
-      
-      <guid>https://www.krayzel.net/posts/001-running-hugo-on-aws/</guid>
-      <description>Hello visitor!
-I&amp;rsquo;ve just created this blog site using hugo and I&amp;rsquo;m excited about it! :) I&amp;rsquo;ll be using this place to share my ideas, thoughts and experience.
-The first &amp;ldquo;real&amp;rdquo; blog post will most likely be about Intervention Ninja. That&amp;rsquo;s my spare time project, which I&amp;rsquo;ve built to demonstrate how simple is to get stuff done on AWS.
-This site itself is also hosted on AWS. It actually sits in AWS S3 and it&amp;rsquo;s delivered to you through AWS CloudFront (content delivery network).</description>
     </item>
     
   </channel>

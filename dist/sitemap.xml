@@ -3,13 +3,24 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://www.krayzel.net/posts/002-intervention-ninja-flask-app-running-on-aws-ecs/</loc>
+    <lastmod>2018-11-18T14:45:39+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://www.krayzel.net/about/</loc>
     <lastmod>2018-11-17T20:07:12+01:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.krayzel.net/posts/001-intro/</loc>
+    <loc>https://www.krayzel.net/posts/001-running-hugo-on-aws/</loc>
     <lastmod>2018-11-17T19:32:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.krayzel.net/tags/aws/</loc>
+    <lastmod>2018-11-18T14:45:39+01:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -19,18 +30,25 @@
   
   <url>
     <loc>https://www.krayzel.net/</loc>
-    <lastmod>2018-11-17T20:07:12+01:00</lastmod>
+    <lastmod>2018-11-18T14:45:39+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.krayzel.net/tags/intervention-ninja/</loc>
+    <lastmod>2018-11-18T14:45:39+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.krayzel.net/posts/</loc>
-    <lastmod>2018-11-17T19:32:30+01:00</lastmod>
+    <lastmod>2018-11-18T14:45:39+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://www.krayzel.net/tags/</loc>
+    <lastmod>2018-11-18T14:45:39+01:00</lastmod>
     <priority>0</priority>
   </url>
   
