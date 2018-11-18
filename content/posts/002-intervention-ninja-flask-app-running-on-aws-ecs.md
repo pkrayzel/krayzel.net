@@ -16,6 +16,8 @@ It is must have for fast-paced company like Skyscanner, that their engineers rat
   
 In the following blog series, I want to convince you, that deploying services to AWS is simple, even if you don't have the whole tribe behind your back.
 
+![You can do it](https://media.giphy.com/media/mohhXPUdhVVoA/giphy.gif)
+
 **What are we going to build?**
 
 Imagine you have a friend, who drinks too much. Or that you have a colleague, who smells ~~like sh*t~~ bad. 
@@ -44,5 +46,6 @@ To keep things simple we're going to use the following set of technologies:
 
 **Whenever you're ready...**
 
-Once you'll have all this prepared, let's get this [party started](/posts/003-intervention-ninja-build-flask-hello-world-docker-image)!
+![Let's get started](https://media.giphy.com/media/l3dj09hpsfuYkijDi/giphy.gif)
 
+Once you'll have all this prepared, let's get this [party started](/posts/003-intervention-ninja-build-flask-app-docker-image)!
