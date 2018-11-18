@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Aws on Home</title>
-    <link>https://www.krayzel.net/tags/aws/</link>
-    <description>Recent content in Aws on Home</description>
+    <title>Docker on Home</title>
+    <link>https://www.krayzel.net/tags/docker/</link>
+    <description>Recent content in Docker on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 18 Nov 2018 18:21:39 +0100</lastBuildDate>
     
-	<atom:link href="https://www.krayzel.net/tags/aws/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.krayzel.net/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,16 +20,6 @@
       <description>In the previous post, I&amp;rsquo;ve shared what we&amp;rsquo;re going to build and why. Today, we&amp;rsquo;re gonna finally do some real work - we&amp;rsquo;ll build simple flask hello-world application and we&amp;rsquo;ll deploy it into AWS.
 Let&amp;rsquo;s get started
 I&amp;rsquo;ll start with building a docker image for our flask application. Let&amp;rsquo;s write a Dockerfile for it. I expect you to have some experience with docker, if you don&amp;rsquo;t - I recommend you to check this website.</description>
-    </item>
-    
-    <item>
-      <title>Intervention Ninja - flask app running on AWS ECS (#01)</title>
-      <link>https://www.krayzel.net/posts/002-intervention-ninja-flask-app-running-on-aws-ecs/</link>
-      <pubDate>Sun, 18 Nov 2018 14:45:39 +0100</pubDate>
-      
-      <guid>https://www.krayzel.net/posts/002-intervention-ninja-flask-app-running-on-aws-ecs/</guid>
-      <description>When I was working at Skyscanner, we had the whole tribe responsible for continuous integration and continuous deployment tools. Getting your service out to production (AWS ECS), was just the matter of merging PR to master and the rest was like &amp;ldquo;magic&amp;rdquo;. You didn&amp;rsquo;t need to worry about that.
-It is must have for fast-paced company like Skyscanner, that their engineers rather spend time delivering business features then worrying about build and deployment.</description>
     </item>
     
   </channel>

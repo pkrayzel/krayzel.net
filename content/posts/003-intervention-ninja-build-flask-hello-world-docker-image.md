@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 date = 2018-11-18T18:21:39+01:00
 title = "Intervention Ninja - build flask hello-world docker image (#02)"
 slug = ""
