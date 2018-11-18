@@ -44,5 +44,5 @@ To keep things simple we're going to use the following set of technologies:
 
 **Whenever you're ready...**
 
-Once you'll have all this prepared, let's get this [party started](/posts/003-intervention-ninja-deploy-flask-hello-world-to-aws-ecs)!
+Once you'll have all this prepared, let's get this [party started](/posts/003-intervention-ninja-build-flask-hello-world-docker-image)!
 
