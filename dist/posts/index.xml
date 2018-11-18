@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Home</title>
+    <link>https://www.krayzel.net/posts/</link>
+    <description>Recent content in Posts on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 17 Nov 2018 19:32:30 +0100</lastBuildDate>
+    
+	<atom:link href="https://www.krayzel.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Running hugo on AWS</title>
+      <link>https://www.krayzel.net/posts/001-intro/</link>
+      <pubDate>Sat, 17 Nov 2018 19:32:30 +0100</pubDate>
+      
+      <guid>https://www.krayzel.net/posts/001-intro/</guid>
+      <description>Hello visitor!
+I&amp;rsquo;ve just created this blog site using hugo and I&amp;rsquo;m excited about it! :) I&amp;rsquo;ll be using this place to share my ideas, thoughts and experience.
+The first &amp;ldquo;real&amp;rdquo; blog post will most likely be about Intervention Ninja. That&amp;rsquo;s my spare time project, which I&amp;rsquo;ve built to demonstrate how simple is to get stuff done on AWS.
+This site itself is also hosted on AWS. It actually sits in AWS S3 and it&amp;rsquo;s delivered to you through AWS CloudFront (content delivery network).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.krayzel.net/about/</loc>
+    <lastmod>2018-11-17T20:07:12+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.krayzel.net/posts/001-intro/</loc>
+    <lastmod>2018-11-17T19:32:30+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.krayzel.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.krayzel.net/</loc>
+    <lastmod>2018-11-17T20:07:12+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.krayzel.net/posts/</loc>
+    <lastmod>2018-11-17T19:32:30+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.krayzel.net/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
