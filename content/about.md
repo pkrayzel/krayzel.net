@@ -29,4 +29,4 @@ I'm currently leading a distributed team of software engineers spread across the
 > AWS is awesome. Seriously!
 
 
-If you want to get in touch, drop me an email to <strong>pkrayzel (at) gmail.com</strong>.
+If you want to get in touch, drop me an email at <strong>pkrayzel (at) gmail.com</strong>.
