@@ -12,7 +12,7 @@ I'm currently leading a distributed team of software engineers spread across the
 
 ![about me](images/about_me_small.png)
 
-**I'm interested in:**
+**What am I interested in:**
 
 - Lean product development
 - DevOps for micro-services architecture
