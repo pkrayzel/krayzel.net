@@ -6,9 +6,12 @@ draft: false
 
 Hey there! 
 
-My name is Pavel, I'm tech lead, senior software engineer and people manager based in Prague.
+My name is Pavel and I'm based in Prague, Czech Republic. To be honest, I live in a small village near to Prague, however no one knows this place, so let's stick with Prague. 
+
+I'm a tech lead, people manager of 5 engineers, father of two kids, husband of one wife and owner of one dog. 
 
 I'm currently leading a distributed team of software engineers spread across the whole Europe.
+My team is working for London-based company MADE.COM in the area of logistics - specifically on warehouse & carrier integrations.
 
 ![about me](images/about_me_small.png)
 
@@ -17,6 +20,7 @@ I'm currently leading a distributed team of software engineers spread across the
 - Lean product development
 - DevOps for micro-services architecture
 - Amazon Web Services & Cloud in general
+- Travelling with my family
 
 **What do I believe in:** 
 
