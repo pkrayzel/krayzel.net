@@ -7,7 +7,6 @@ jobs:
       - checkout
       - run: apk --update upgrade && apk add hugo
       - run: pip install awscli
-      - run: $s3_bucket
       # TODO run some smoke tests ?
       # creating distribution of website
       - run: hugo -v -d dist/
