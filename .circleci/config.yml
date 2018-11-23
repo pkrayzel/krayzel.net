@@ -14,6 +14,3 @@ jobs:
       - run: aws s3 sync dist/ s3://www.krayzel.net
       - run: aws cloudfront create-invalidation --distribution-id E3EY578VO86BO9 --paths "/*"
       - run: aws cloudfront create-invalidation --distribution-id EUH490CEZ8K93 --paths "/*"
-#      - run: aws s3 sync dist/ s3://www.krayzel.net
-#      - run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID1 --paths "/*"
-#      - run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID2 --paths "/*"
