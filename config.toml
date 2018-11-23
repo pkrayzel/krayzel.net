@@ -69,3 +69,7 @@ disqusShortname = "" # Enable or disable Disqus.
     name = "About me"
     weight = 2
     url = "about"
+[[menu.main]]
+    name = "CV"
+    weight = 3
+    url = "work-history"
