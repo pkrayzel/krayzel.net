@@ -2,7 +2,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: alpine-python:3.6
+      - image: library/python:3.7-alpine3.8
     steps:
       - checkout
       - run: echo "A first hello"
