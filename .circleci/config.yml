@@ -11,6 +11,8 @@ jobs:
       # TODO run some smoke tests ?
       # creating distribution of website
       - run: hugo -v -d dist/
+      # deploy it to s3
       - run: aws s3 sync dist/ s3://www.krayzel.net
+      # invalidate the whole cloudfront distribution (for both www.krayzel.net and krayzel.net)
       - run: aws cloudfront create-invalidation --distribution-id E3EY578VO86BO9 --paths "/*"
       - run: aws cloudfront create-invalidation --distribution-id EUH490CEZ8K93 --paths "/*"
