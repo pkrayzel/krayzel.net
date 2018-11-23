@@ -11,7 +11,7 @@ My name is Pavel and I'm based in Prague, Czech Republic. To be honest, I live i
 I'm a tech lead, people manager of 5 engineers, father of two kids, husband of one wife and owner of one dog. 
 
 I'm currently leading a distributed team of software engineers spread across the whole Europe.
-My team is working for London-based company MADE.COM in the area of logistics - specifically on warehouse & carrier integrations.
+My team is working for London-based company MADE.COM in the area of logistics - specifically on integration with warehouses & carriers.
 
 ![about me](images/about_me_small.png)
 
