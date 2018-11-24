@@ -11,6 +11,6 @@ jobs:
       # creating distribution of website
       - run: hugo -v -d dist/
       # deploy it to s3
-      - run: aws s3 sync dist/ s3://www.krayzel.net
+      - run: aws s3 sync dist/ $S3_BUCKET_NAME
       # invalidate the whole cloudfront distribution (for www.krayzel.net)
-      - run: aws cloudfront create-invalidation --distribution-id E3EY578VO86BO9 --paths "/*"
+      - run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
