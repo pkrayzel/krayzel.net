@@ -5,7 +5,7 @@ title = "Deploying static website to AWS S3 with AWS CloudFront and AWS Route 53
 slug = ""
 tags = ["hugo", "aws s3", "aws cloudfront", "aws route 53", "cloudformation"]
 categories = []
-thumbnail = "images/tn.png"
+thumbnail = "images/aws_static_site_hosting.png"
 description = ""
 +++
 
