@@ -5,7 +5,7 @@ title = "Intervention Ninja - flask app running on AWS ECS (#01)"
 slug = "" 
 tags = ["intervention-ninja", "aws"]
 categories = []
-thumbnail = "images/avatar.png"
+thumbnail = "images/thumbnail.png"
 description = ""
 +++
 

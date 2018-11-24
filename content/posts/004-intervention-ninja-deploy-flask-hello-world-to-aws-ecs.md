@@ -5,7 +5,7 @@ title = "Intervention Ninja - deploy flask hello-world to AWS ECS (#03)"
 slug = ""
 tags = ["intervention-ninja", "aws"]
 categories = []
-thumbnail = "images/tn.png"
+thumbnail = "images/thumbnail.png"
 description = ""
 +++
 

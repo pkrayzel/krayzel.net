@@ -5,7 +5,7 @@ title = "Running hugo on AWS"
 slug = "" 
 tags = []
 categories = []
-thumbnail = "images/avatar.png"
+thumbnail = "images/thumbnail.png"
 description = ""
 +++
 

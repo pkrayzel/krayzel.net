@@ -68,7 +68,6 @@ disqusShortname = "yourdiscussshortname" # Enable or disable Disqus.
 
     snsShare = true # new add
 
-    thumbnail = "images/tn.png" # default sns thumbnail
 
     # Multilanguage mode
     langseparator = "|" # Separates menus from language selectors when site is multilingual.

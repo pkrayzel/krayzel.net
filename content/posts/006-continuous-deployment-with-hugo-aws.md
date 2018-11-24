@@ -5,7 +5,7 @@ title = "Continuous Deployment with Hugo to AWS"
 slug = ""
 tags = ["continuous-deployment", "continuous-delivery", "continuous-integration", "hugo", "aws"]
 categories = []
-thumbnail = "images/tn.png"
+thumbnail = "images/thumbnail.png"
 description = ""
 +++
 
