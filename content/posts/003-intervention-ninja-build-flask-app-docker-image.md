@@ -5,7 +5,7 @@ title = "Intervention Ninja - build flask app docker image (#02)"
 slug = ""
 tags = ["intervention-ninja", "python", "docker", "aws"]
 categories = []
-thumbnail = "images/tn.png"
+thumbnail = "images/avatar.png"
 description = ""
 +++
 
