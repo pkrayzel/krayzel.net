@@ -1,12 +1,12 @@
 +++
 draft = false
 date = 2018-11-23T21:38:37+01:00
-title = "Deploying static website to AWS S3 with AWS CloudFront and AWS Route 53"
+title = "Hosting a static website in AWS S3 with AWS CloudFront and AWS Route 53"
 slug = ""
 tags = ["hugo", "aws s3", "aws cloudfront", "aws route 53", "cloudformation"]
 categories = []
 thumbnail = "images/aws_static_site_hosting.png"
-description = ""
+description = "Article describes how you can host your static website in AWS S3 with AWS CloudFront and AWS Route 53. It also provides step by step manual and CloudFormation template for you."
 +++
 
 This article describes how you can host your static website in AWS S3 with AWS CloudFront and AWS Route 53.
