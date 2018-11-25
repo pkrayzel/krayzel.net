@@ -5,12 +5,23 @@ jobs:
       - image: library/python:3.7-alpine3.8
     steps:
       - checkout
-      - run: apk --update upgrade && apk add hugo
-      - run: pip install awscli
+      - run:
+            name: instqll hugo
+            command: apk --update upgrade && apk add hugo
+      - run:
+            name: install aws command line tool
+            command: pip install awscli
+
       # TODO run some smoke tests ?
-      # creating distribution of website
-      - run: hugo -v -d dist/
-      # deploy it to s3
-      - run: aws s3 sync dist/ $S3_BUCKET_NAME
-      # invalidate the whole cloudfront distribution (for www.krayzel.net)
-      - run: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+
+      - run:
+            name: create final distribution of the website
+            command: hugo -v -d dist/
+
+      - run:
+            name: upload it to the s3
+            command: aws s3 sync dist/ $S3_BUCKET_NAME
+
+      - run:
+            name: invalidate the whole cloudfront distribution
+            command: aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
