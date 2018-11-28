@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 date = 2018-11-28T20:36:39+01:00
 title = "Intervention Ninja - deploy flask docker app to AWS ECS (#03)"
 slug = ""
