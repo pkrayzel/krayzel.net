@@ -104,7 +104,7 @@ Then we need to setup **circleci** for AWS integration. We need access key and s
 You should add them as environment variables **AWS_ACCESS_KEY_ID** and **AWS_SECRET_ACCESS_KEY** to your project in circleci. 
 You can find more details on <a href="https://circleci.com/docs/2.0/deployment-integrations/#aws" target="_blank">this official website</a>.
 
-![circleci project environment variables](images/circleci_environment.png)
+![circleci project environment variables](images/006/circleci_environment.png)
 
 
 
@@ -143,6 +143,6 @@ circleci will trigger a build and all my changes will automatically appear on th
 for a proper continuous deployment pipeline, you should also run some tests to actually check that your recent commit didn't break your website. 
 I don't have this yet, but I'm checking <a href="https://github.com/gjtorikian/html-proofer">html-proofer</a> as I'm writing this.
 
-![circleci job pipeline](images/circleci_job_detail.png)
+![circleci job pipeline](images/006/circleci_job_detail.png)
 
 That's it! And as always, If you have any question, drop me an email at **pkrayzel (at) gmail.com**

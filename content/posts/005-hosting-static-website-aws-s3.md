@@ -3,9 +3,9 @@ draft = false
 date = 2018-11-23T21:38:37+01:00
 title = "Hosting a static website in AWS S3 with AWS CloudFront and AWS Route 53"
 slug = ""
-tags = ["hugo", "aws s3", "aws cloudfront", "aws route 53", "cloudformation"]
+tags = ["hugo", "aws s3", "aws cloudfront", "aws route 53", "cloudformation", "content delivery network"]
 categories = []
-thumbnail = "images/aws_static_site_hosting.png"
+thumbnail = "images/005/aws_static_site_hosting.png"
 description = "Article describes how you can host your static website in AWS S3 with AWS CloudFront and AWS Route 53. It also provides step by step manual and CloudFormation template for you."
 +++
 
@@ -14,7 +14,7 @@ And because it's best to use real world examples - I'll show you how this is don
 
 The following diagram shows the components of this solution.  
 
-![AWS static content hosting](images/aws_static_site_hosting.png)
+![AWS static content hosting](images/005/aws_static_site_hosting.png)
 
 **User** can be from anywhere right? Anywhere around the world, from Asia, Australia, Europe to America. 
 The goal is to serve our website to the user fast, no matter where he / she is connecting from. 
@@ -44,7 +44,7 @@ similar user experience whenever they are.
 <a href="https://aws.amazon.com/cloudfront/pricing" target="_blank">Pricing model for CloudFront</a> is more complex - it depends on the traffic - data in and out, number of requests 
 and also the amount of the file invalidation requests (first 1000 invalidation requests in month are free).
 
-![Content Delivery Network](images/cdn.png)
+![Content Delivery Network](images/005/cdn.png)
 
 **AWS S3** is the actual storage for your static content. We need one bucket with public access to it, 
 where we store the actual content (eg. index.html and other files for your website). 

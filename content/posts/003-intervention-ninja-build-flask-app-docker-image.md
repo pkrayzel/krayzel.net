@@ -24,7 +24,7 @@ RUN pip install Flask==0.12.2
 ADD ./src /opt/intervention-ninja
 WORKDIR /opt/intervention-ninja
 
-EXPOSE 5000
+EXPOSE 80
 CMD ["python", "app.py"]
 {{< / highlight >}}
 
@@ -75,12 +75,12 @@ If you're not familiar with Jinja2 templates or macros, check <a href="http://ji
   
 The full structure of our project now looks like this:
 
-![Intervention Ninja flask app project structure](images/in_flask_structure.png)
+![Intervention Ninja flask app project structure](images/003/in_flask_structure.png)
 
 Great! Now let's build a docker image - run following command from your terminal.
 
 ```
-docker build -t intervention-ninja .
+docker build -t intervention-ninja-flask .
 ```
 
 Docker daemon should execute all the steps from Dockerfile and last two lines in your terminal 
@@ -88,7 +88,7 @@ should look similar to this (the *image id* will be different):
 
 ```
 Successfully built 4549d6651033
-Successfully tagged intervention-ninja:latest
+Successfully tagged intervention-ninja-flask:latest
 ```
 
 **Running the service**
@@ -96,7 +96,7 @@ Successfully tagged intervention-ninja:latest
 We'll run our new docker image, expose it on our host (localhost) on port 5000 and we'll run it as daemon (so we can still use our terminal).
 
 ```
-docker run -p 5000:5000 -d intervention-ninja
+docker run -p 80:80 -d intervention-ninja-flask
 ```
 
 Now let's check whether our docker container is running:
@@ -108,17 +108,17 @@ docker ps
 should give you a following input
 
 ``` 
-CONTAINER ID        IMAGE                COMMAND             CREATED             STATUS              PORTS                    NAMES
-ba8b6ddb34c6        intervention-ninja   "python app.py"     3 seconds ago       Up 1 second         0.0.0.0:5000->5000/tcp   priceless_darwin
+CONTAINER ID        IMAGE                      COMMAND             CREATED             STATUS              PORTS                NAMES
+9b23694bf916        intervention-ninja-flask   "python app.py"     2 minutes ago       Up 2 minutes        0.0.0.0:80->80/tcp   quizzical_agnesi
 ```
 
-That looks promising. Now open your browser on url <a href="http://localhost:5000" target="_blank">http://localhost:5000</a> and you should see:
+That looks promising. Now open your browser on url <a href="http://localhost" target="_blank">http://localhost</a> and you should see:
 
-![Intervention Ninja Flask - homepage](images/in_flask_index.png)
+![Intervention Ninja Flask - homepage](images/003/in_flask_index.png)
 
 Let's put some email address into the form and let's click on the **Send** button. You should now be on the second page:
 
-![Intervention Ninja Flask - homepage](images/in_flask_send.png)
+![Intervention Ninja Flask - homepage](images/003/in_flask_sent.png)
 
 Ok, that was fun! Of course we're not sending real emails - to be honest - i've removed this part from the code for the purpose of this blog post.
 Next task will be to ship this application to AWS ECS. Stay tuned!

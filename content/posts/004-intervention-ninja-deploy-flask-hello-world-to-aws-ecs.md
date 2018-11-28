@@ -1,11 +1,11 @@
 +++
 draft = true
-date = 2018-11-18T20:36:39+01:00
-title = "Intervention Ninja - deploy flask hello-world to AWS ECS (#03)"
+date = 2018-11-28T20:36:39+01:00
+title = "Intervention Ninja - deploy flask docker app to AWS ECS (#03)"
 slug = ""
-tags = ["intervention-ninja", "aws"]
+tags = ["intervention-ninja", "aws ecs", "docker", "flask"]
 categories = []
-thumbnail = "images/thumbnail.png"
+thumbnail = "images/004/.png"
 description = ""
 +++
 
