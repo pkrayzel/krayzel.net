@@ -9,7 +9,7 @@ I’m adding my own version as well.
 
 These are my current challenges:
 
-- **running 100 km every month** 
+- **running 100 km every month** and **workout twice a week** with <a href="https://www.runtastic.com/cs/results" target="_blank">Runtastic Results</a> 
   - I've started this challenge in October, so my total target for this year is "only" **650 km**
 
 - **reading a book every month** 
