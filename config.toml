@@ -62,14 +62,18 @@ disqusShortname = "" # Enable or disable Disqus.
 
 # Menu links
 [[menu.main]]
+    name = "Now!"
+    weight = 100
+    url  = "/now"
+[[menu.main]]
     name = "Blog"
-    weight = 1
-    url  = "posts"
+    weight = 200
+    url  = "/posts"
 [[menu.main]]
     name = "About me"
-    weight = 2
-    url = "about"
+    weight = 300
+    url = "/about"
 [[menu.main]]
     name = "CV"
-    weight = 3
-    url = "work-history"
+    weight = 300
+    url = "/work-history"
