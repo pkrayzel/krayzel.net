@@ -5,9 +5,19 @@ draft: false
 ---
 
 Inspired by Derek Sivers and his <a href="http://nownownow.com" target="_blank">nownownow.com</a> site, 
-I’m adding my own version as well. 
+I’m adding my own version as well. It's mostly for me, to remind me of what's important in my life.  
 
-These are my current challenges:
+**As a father**:
+
+- Spent quality time with kids every day
+- Take them out for a whole weekend every few months
+
+**As a husband**
+
+- Help my wife more with everything :) 
+- Have an evening out with my her every month
+
+**My personal challenges**:
 
 - **running 100 km every month** and **workout twice a week** with <a href="https://www.runtastic.com/cs/results" target="_blank">Runtastic Results</a> 
   - I've started this challenge in October, so my total target for this year is "only" **650 km**
@@ -17,7 +27,7 @@ These are my current challenges:
 
 - **writing 1 blog article every two weeks** 
 
-I'm also: 
+**I'm also:** 
 
 - learning new songs on electric guitar
   - currently **Walk** and **Learn to Fly** by Foo Fighters
