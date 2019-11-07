@@ -4,14 +4,22 @@ date: 2018-11-17T20:07:12+01:00
 draft: false
 ---
 
-* **Distributed Team Leader + Sw. Engineering Manager**, <a href="http://www.made.com" target="_blank">MADE.COM</a>, London, United Kingdom, [01/2018 - present]
+* **Distributed Technical Leader + Sw. Engineering Manager**, <a href="http://www.made.com" target="_blank">MADE.COM</a>, London, United Kingdom, [01/2018 - present]
 
-I'm hands-on tech lead of a distributed team, which is working on integration with warehouses & carriers.
-I'm also manager of ~5 software engineers spread across Europe.
+I'm hands-on tech lead of a distributed team and I'm also manager of ~5 software engineers spread across Europe.
+I'm currently working on a project which moves "stock inventory & allocation" domain from a core legacy system into new highly available & 
+customer facing micro-service. 
+
 
 I’ve helped MADE.COM to built their first distributed team at back-office (logistics) & with cultural
 shift towards distribution. I've been involved in hiring great engineers & helping my part of the company to
 succeed in growth (3 -> 5 teams in 3 months with ~40% distributed team members).
+  
+**Key Achievements:**
+
+- Founding member & leader of the first distributed team at made.com back-office. Helped
+company to hire & attract more remote workers from Europe.
+- Helped to successfully deliver large & complex warehouse integration project in short amount of time (when the current warehouse was running out of space) 
 
 
 * **Senior Software Engineer**, <a href="http://www.skyscanner.com" target="_blank">Skyscanner Ltd.</a>, London, United Kingdom, [03/2017 - 01/2018]
