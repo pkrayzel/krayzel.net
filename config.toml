@@ -85,3 +85,7 @@ disqusShortname = "" # Enable or disable Disqus.
     name = "CV"
     weight = 300
     url = "/work-history"
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true

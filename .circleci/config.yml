@@ -6,7 +6,7 @@ jobs:
     steps:
       - checkout
       - run:
-            name: instqll hugo
+            name: install hugo
             command: apk --update upgrade && apk add hugo
       - run:
             name: install aws command line tool
