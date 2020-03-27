@@ -1,6 +1,6 @@
 ---
 title: "Work history"
-date: 2020-03-27T20:07:12+01:00
+date: 2020-03-27T14:38:12+01:00
 draft: false
 ---
 
