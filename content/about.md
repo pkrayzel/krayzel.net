@@ -8,11 +8,9 @@ Hey there!
 
 My name is Pavel and I'm based in Prague, Czech Republic. To be honest, I live in a small village near to Prague, however no one knows this place, so let's stick with Prague. 
 
-I'm a tech lead, people manager of 5 engineers, father of two kids, husband of one wife and owner of one dog. 
+I'm father of two kids, husband of one wife and owner of one dog and also senior software engineer. 
 
-I'm currently leading a distributed team of software engineers spread across the whole Europe.
-My team is working for London-based company MADE.COM - currently we're moving "stock inventory & allocations" part of the core legacy
-system into highly available (24/7) & customer facing micro-service. 
+I'm currently working in a fully distributed company called Hotjar which has people spread across the whole world, the majority of them in EMEA.
 
 ![about me](images/about_me_small.png)
 

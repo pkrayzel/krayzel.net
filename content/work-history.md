@@ -1,10 +1,15 @@
 ---
 title: "Work history"
-date: 2018-11-17T20:07:12+01:00
+date: 2020-03-27T20:07:12+01:00
 draft: false
 ---
 
-* **Distributed Technical Leader + Sw. Engineering Manager**, <a href="http://www.made.com" target="_blank">MADE.COM</a>, London, United Kingdom, [01/2018 - present]
+* **Senior Software Engineer**, <a href="http://www.hotjar.com" target="_blank">Hotjar</a>, Anywhere (mostly Prague, Czech Republic) [03/2020 - present]
+
+I've just joined Hotjar this week (23.3.2020) as a Senior Software Engineer, I'm working in Activation & Revenue,
+More details to come as the time goes by :) 
+
+* **Distributed Technical Leader + Sw. Engineering Manager**, <a href="http://www.made.com" target="_blank">MADE.COM</a>, London, United Kingdom, [01/2018 - 03/2020]
 
 I'm hands-on tech lead of a distributed team and I'm also manager of ~5 software engineers spread across Europe.
 I'm currently working on a project which moves "stock inventory & allocation" domain from a core legacy system into new highly available & 

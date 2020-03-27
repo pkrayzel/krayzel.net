@@ -4,11 +4,15 @@ date: 2018-12-17T21:13:35+01:00
 draft: false
 ---
 
+**March 2020**
+
+- Radical Candor: How to get what you want by saying what you mean
+  - (*) still reading as part of book club
+
 **November 2019**
 
 - Domain-Driven Design: Tackling Complexity in the Hearth of Software, Erik Evans
-  - (*) still reading as part of book club
-
+  
 **October 2019**
 
 - Designing Event-Driven Systems, Ben Stopford
