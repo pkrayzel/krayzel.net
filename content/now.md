@@ -14,8 +14,8 @@ I’m adding my own version as well. It's mostly for me, to remind me of what's 
 
 **As a husband**
 
-- Help my wife more with everything :) 
-- Have an evening out with her every 1-2 months
+- Help my wife more with everything :)
+- Spent quality time with her (ideally go out for breakfast once restaurants are open again) 
 
 **As a friend**
 
@@ -23,24 +23,27 @@ I’m adding my own version as well. It's mostly for me, to remind me of what's 
 
 **As a professional**
 
-- Prepare and give a talk at some good Software conference in 2020 (aim for O'Reilly SA in Berlin November 2020)
-- Practice Architectural Katas with a group of friends / coworkers at least once a month
+- Have a good feeling from work without the need to over-work
+- Work on sharing knowledge
+  - eg. write a discourse post/blog post once a month Hotjar
+  - the goal is to practice for:
+    - giving a speech at technical conference
+    - writing a public blog post regularly
+    - potentially write a technical book later
 - Focus on the Breadth of Technical Knowledge (in order to become a software architect)
-- Write a blog post every month 
 
 **As a musician**
 
-- Practice guitar daily
-- Participate in the monthly rehearsals with rock-n-roll band Andilci 
-- Be ready for a first concert in Q1 2020 
+- Practice guitar regularly
+- Participate in the weekly rehearsals with rock-metal band Angel Saxx 
+- Be ready for the first concert when things will reopen 
 
 **My personal challenges**:
 
-- **running 100 km every month** 
-  - I've successfully finished this challenge last year (October - December 2018 with **700 km**)
-  - Keeping it in 2019 as well, January - October **1050 km** 
+- **The 5am Club** 
+  - inspired by the book "The 5am Club" and in order to enable more of the above, I'm waking up at 5am on work days and starting with myself 
+- **learning german on Duolingo every day** 
+- **reading a chapter of a book every working day**
+- **reading a blink on blinkist every working day** 
 
-- **reading a book every 1-2 months** 
-  - currently reading **Domain-Driven Design** by **Eric Evans**
-
-Last updated: November 07, 2019 17:46pm
+Last updated: April 20, 2021 20:18pm

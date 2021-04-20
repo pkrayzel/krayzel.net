@@ -6,8 +6,15 @@ draft: false
 
 * **Senior Software Engineer**, <a href="http://www.hotjar.com" target="_blank">Hotjar</a>, Anywhere (mostly Prague, Czech Republic) [03/2020 - present]
 
-I've just joined Hotjar this week (23.3.2020) as a Senior Software Engineer, I'm working in Activation & Revenue,
-More details to come as the time goes by :) 
+I've joined Hotjar at the beginning of the global pandemic as a Senior Software Engineer. 
+I'm currently working in the payments squad, on a technically challenging project - migration from one external subscription management system to another.
+As part of the project we're invisibly replacing old external system with new external system, while also migrating 
+legacy technical solution towards the defined north star architecture.
+
+**Key Achievements (so far):**
+
+- Leading initiative to define North Star architecture @ Hotjar in order to support the organizational growth
+- Founding member of the payments squad, helped team to implement PSD2 - 3DS2 legal requirements for credit card payments at Hotjar
 
 * **Distributed Technical Leader + Sw. Engineering Manager**, <a href="http://www.made.com" target="_blank">MADE.COM</a>, London, United Kingdom, [01/2018 - 03/2020]
 
