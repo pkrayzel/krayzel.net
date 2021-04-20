@@ -5,6 +5,7 @@ jobs:
       - image: library/python:3.7-alpine3.8
     steps:
       - checkout
+      - run: python --version
       - run:
             name: install hugo
             command: apk --update upgrade && apk add hugo
