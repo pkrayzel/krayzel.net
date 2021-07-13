@@ -4,10 +4,21 @@ date: 2018-12-17T21:13:35+01:00
 draft: false
 ---
 
-**April 2021**
+**June 2021**
+
+- User Story Mapping: Discover the Whole Story, Build the Right Product, Jeff Patton
+  - (*) still reading
+
+- Patterns of Enterprise Application Architecture, Martin Fowler
+  - (*) still reading
+
+**May 2021**
 
 - Building Evolutionary Architectures: Support Constant Change, Neal Ford, Rebecca Parsons, Patrick Kua
-  - (*) still reading
+
+**April 2021**
+
+- \#NoEstimates: How to Measure Project Progress Without Estimating, Vasco Duarte
 
 - Fundamentals of Software Architecture: An Engineering Approach, Neal Ford, Mark Richards
 
