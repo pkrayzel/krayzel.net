@@ -6,11 +6,15 @@ draft: false
 
 **January 2022**
 
-Sweet Revenge, Jonas Jonasson
+- Sweet Revenge, Jonas Jonasson
   - (*) still reading
+
 - Accelerate, Nicole Forsgren, Jez Humble, Gene Kim
+
 - 40 days on foot to Jerusalem, Ladislav Zibura
+
 - Software Design X-Rays, Adam Tornhill
+
 - Hitman Anders, Jonas Jonasson
 
 **December 2021**
