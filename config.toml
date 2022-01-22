@@ -17,7 +17,7 @@ disqusShortname = "" # Enable or disable Disqus.
 
 [params] # theme parameters
     author = "Pavel Krayzel" # Author's name.
-    info = "Senior Software Engineer"
+    info = "Staff Software Engineer"
     description = "Pavel Krayzel's personal website" # Site description.
     keywords = "blog,developer,personal,aws" # Site keywords.
     avatarurl = "images/avatar.png"

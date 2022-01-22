@@ -4,7 +4,13 @@ date: 2020-03-27T14:38:12+01:00
 draft: false
 ---
 
-* **Senior Software Engineer**, <a href="http://www.hotjar.com" target="_blank">Hotjar</a>, Anywhere (mostly Prague, Czech Republic) [03/2020 - present]
+* **Staff Software Engineer, Backend Chapter Lead**, <a href="http://www.hotjar.com" target="_blank">Hotjar</a>, Anywhere (mostly Prague, Czech Republic) [10/2021 - present]
+ 
+- Supporting company big bets (architecture and design)
+- Leading chapter of backend engineers
+- Leading initiative to define North Star architecture @ Hotjar in order to support the organizational growth
+
+* **Senior Software Engineer**, <a href="http://www.hotjar.com" target="_blank">Hotjar</a>, Anywhere (mostly Prague, Czech Republic) [03/2020 - 09/2021]
 
 I've joined Hotjar at the beginning of the global pandemic as a Senior Software Engineer. 
 I'm currently working in the payments squad, on a technically challenging project - migration from one external subscription management system to another.

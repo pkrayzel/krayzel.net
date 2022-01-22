@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dd9e554e-7a6e-4172-9d67-4ae8fd4d275b" name="Default Changelist" comment="" />
+    <list default="true" id="dd9e554e-7a6e-4172-9d67-4ae8fd4d275b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.toml" beforeDir="false" afterPath="$PROJECT_DIR$/config.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/books.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/books.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/work-history.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/work-history.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +41,11 @@
       <updated>1585314764603</updated>
       <workItem from="1585314766151" duration="1483000" />
       <workItem from="1585638567944" duration="231000" />
-      <workItem from="1618940152201" duration="3618000" />
+      <workItem from="1618940152201" duration="5594000" />
+      <workItem from="1626197669197" duration="1699000" />
+      <workItem from="1628060297559" duration="598000" />
+      <workItem from="1628148913564" duration="575000" />
+      <workItem from="1642869743090" duration="435000" />
     </task>
     <servers />
   </component>
@@ -44,14 +53,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="646" y="204" key="com.intellij.ide.util.TipDialog" timestamp="1585655785996">
-      <screen x="0" y="23" width="1440" height="797" />
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1642870042120">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
-    <state x="646" y="204" key="com.intellij.ide.util.TipDialog/0.23.1440.797@0.23.1440.797" timestamp="1585655785996" />
-    <state x="1232" y="-895" width="894" height="896" key="search.everywhere.popup" timestamp="1585316240974">
-      <screen x="719" y="-1057" width="1920" height="1057" />
-    </state>
-    <state x="385" y="145" width="670" height="676" key="search.everywhere.popup/0.23.1440.798/-1201.-1057.1920.1057/719.-1057.1920.1057@0.23.1440.798" timestamp="1585315138404" />
-    <state x="1232" y="-895" width="894" height="896" key="search.everywhere.popup/0.23.1440.798/-1201.-1057.1920.1057/719.-1057.1920.1057@719.-1057.1920.1057" timestamp="1585316240974" />
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup/-1920.23.1920.1057/0.23.1920.1057@0.23.1920.1057" timestamp="1642870042120" />
   </component>
 </project>
